@@ -43,13 +43,13 @@ body {
             rgb(0 0 0 / 0.9),
             rgb(0 0 0 / 0.5)
         ),
-        url(imagenes/fondo-arbol-nieve.jpg)
+        url(/imagenes/fondo-arbol-nieve.jpg)
         no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 2000px;
+        height: 1500px;
 }
 
 .container {
@@ -104,12 +104,12 @@ body {
 }
 
 
-@media screen and (max-width : ) {
+/* @media screen and (max-width : ) {
     
     nav {
         display: flex;
     }
-}
+} */
 
 
 @media screen and (max-width : 800px) {
@@ -259,7 +259,7 @@ body {
             justify-content: center;
             text-align: center;
             padding-bottom: 20px;
-            background-color: ;
+            /* background-color: ; */
         }
             .lateral ul li {
 
