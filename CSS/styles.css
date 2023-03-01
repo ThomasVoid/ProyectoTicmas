@@ -43,7 +43,7 @@ body {
             rgb(0 0 0 / 0.9),
             rgb(0 0 0 / 0.5)
         ),
-        url(/imagenes/fondo-arbol-nieve.jpg)
+        url(imagenes/fondo-arbol-nieve.jpg)
         no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
