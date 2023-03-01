@@ -1,0 +1,117 @@
+
+
+.nombre {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+h2,h3,h4 {
+    color: #FFECD1;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+p {
+    color: #FFECD1;
+    font-size: 1.33rem;
+    padding: 0 15px 15px 15px;
+    padding: 20px;
+}
+
+article {
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #FFECD1;
+}
+
+.usuario {
+    float: left;
+    width: 25%;
+    height: auto;
+    border-radius: 30%;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos img{
+    width: 25%;
+}
+
+
+#sobremi {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 21, 36,0.5);
+    border-bottom: #FFECD1 1px solid;
+}
+
+h1 {
+    padding-top: 20px;
+    color: #FFECD1;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 10 15 10;
+}
+
+#conocimientos {
+    width: 100%;
+    text-align: center;
+}
+
+#experiencia {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+
+
+}
+
+.tarjeta {
+    background-color: #15616d;
+    width: 27%;
+    height: 100%;
+    border-radius: 1rem;
+    
+}
+
+.tarjeta:hover {
+    box-shadow: 0 0 10px #FFECD1;
+}
+
+.tarjeta h5 {
+    margin: 5px;
+    padding: 5px;    
+    color: #FFECD1;
+}
+
+.tarjeta p {
+    font-size: 1rem;
+}
+
+.tarjeta img {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+.lateral {
+    border-left: #FFECD1 1px solid;
+    border-bottom: #FFECD1 1px solid;
+    width: 100%;
+    background-color: rgba(21, 97, 109, 0.99);
+    height: 100%;
+    z-index: 2;
+}
+
+.lateral h4 {
+    text-align: center;
+    background-color: #001524;
+    padding: 20px 10px 20px 10px;
+    margin: 0 0 20px 0;
+    color: #FFECD1;
+    font-size: 1.23rem;
+}
+
+.lateral ul {
+    width: 100%;
+    display: grid;
+    text-align: center;   
+    gap: 40px;
+}
+
+.lateral ul li {
+    width: 100%;
+}
+
+.lateral ul li a {
+    
+    height: auto;
+    padding: 20px 50px 20px 50px;
+}
+
+.lateral ul li a:hover {
+    background-color: #FFECD1;
+    color: #001524;
+    border-radius: .2rem;
+}

@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    z-index: 5;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: #FFECD1 1px solid;
+    bottom: 0;
+    background: 
+    linear-gradient(
+        to right,
+        rgb(0 0 0 / 0.9),
+        rgb(0 0 0 / 0.3)
+    ),
+    #FFECD1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer h3 {
+    padding: 19.5px;
+    font-size: 1rem;
+}
+
+footer a {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+footer span {
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a:hover {
+    background-color: #15616D;
+    border-radius: .2rem;
+    color: #76d1df;
+}
