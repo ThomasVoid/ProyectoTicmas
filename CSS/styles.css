@@ -56,7 +56,6 @@ body {
     position: relative;
     display: grid;
     min-height: 100vh;
-    width: 100vw;
     grid-template-areas: 
     "n n n n  n n n n  n n n n"
     "h h h h  h h h h  h h h h"
@@ -104,13 +103,23 @@ body {
 }
 
 
-/* @media screen and (max-width : ) {
+ @media screen and (min-width : 800px) {
     
-    nav {
-        display: flex;
+    .tarjeta {
+        height: 380px;
+        width: 300px;
     }
-} */
 
+} 
+
+@media screen and (min-width : 1800px) {
+
+    .tarjeta {
+        height: 480px;
+        width: 400px;
+    }
+
+}
 
 @media screen and (max-width : 800px) {
 
@@ -138,10 +147,9 @@ body {
 
     .box-3 {
         position: static;
-        top: 0px;
         grid-area: l;
         width: 100%;
-        height: auto;
+        height: 300px;
         max-height: 100%;
     }
 
@@ -157,10 +165,6 @@ body {
     .nav.visible {
         opacity: 1;
         visibility: visible;
-    }
-    
-    aside {
-        display: none;
     }
     
     .nav {
@@ -196,9 +200,6 @@ body {
         padding: 1rem;
     }
     
-    .sobremi {
-
-    }
 
     .usuario {
         margin-top: 20px;
@@ -247,8 +248,10 @@ body {
      .lateral {
         border: none;
         background-color: transparent;
+        bottom: 80px;
     }
         .lateral h4 {
+            font-size: 1rem;
             margin: 0 20px 30px 20px;
             border-radius: .5rem;
             background-color: rgba(0, 21, 36, 0.3);  
@@ -264,6 +267,7 @@ body {
             .lateral ul li {
 
                 padding: 0;
+                font-size: 1rem;
 
             }
                 .lateral ul li a {
@@ -279,7 +283,7 @@ body {
     }
 
     footer {
-        margin-top: 20px;
+        margin-top: 100px;
         display: flex;
         flex-wrap: wrap;
         height: auto;
